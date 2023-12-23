@@ -9,7 +9,7 @@
     width: 180px;
 
     .imgSneaker{
-        width: 180px;
+        width: 166px;
         border-radius:5px;
     }
 
@@ -38,4 +38,12 @@
     }
 }
 
+@media screen and(min-width: 476px) {
 
+    .collectionCard{
+        .imgSneaker{
+            width: 200px;
+        }
+    }
+    
+}
