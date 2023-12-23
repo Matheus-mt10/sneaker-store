@@ -57,8 +57,31 @@ header .searchBar .inputSearchHome:focus {
 header .searchBar .inputSearchHome::-moz-placeholder {
   padding: 0px 0px 0px 10px;
   color: #737373;
+  font-size: 18px;
 }
 header .searchBar .inputSearchHome::placeholder {
   padding: 0px 0px 0px 10px;
   color: #737373;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 391px) and (max-width: 476px) {
+  header {
+    padding: 10px 0px;
+  }
+  header .searchBar {
+    width: 434px;
+  }
+  header .searchBar .inputSearchHome {
+    width: 380px;
+  }
+  header .navigationItens {
+    padding: 8px 15px;
+  }
+  header .navigationItens .navBoxIcon .navIcons {
+    width: 28px;
+  }
+  header .navigationItens .brandBox .logoHeader {
+    width: 54px;
+  }
 }/*# sourceMappingURL=Header.module.css.map */

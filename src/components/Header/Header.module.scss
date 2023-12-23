@@ -15,7 +15,6 @@ header{
         justify-content: space-between;
         padding: 8px;
 
-    
         .brandBox{
             .logoHeader{
                 width: 39px;
@@ -64,16 +63,55 @@ header{
             &:focus{
                 outline: none;
             }
-
             &::placeholder{
                padding: 0px 0px 0px 10px;
                color: #737373;
+               font-size: 18px;
+
             }
         }
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width:476px){
+    
+    
+    header{
+
+        padding: 10px 0px;
+
+        .searchBar{
+
+                width: 434px;
+                .inputSearchHome{
+                    width: 380px;
+                }
+            }
+
+           .navigationItens{
+
+                padding: 8px 15px;
+
+                .navBoxIcon{
+                    .navIcons{
+                        width: 28px;
+                    }
+                }
+            
+                .brandBox{
+                    .logoHeader{
+                        width: 54px;
+                    }
+                }
+            
+            
+            }
+        
 
         
 
-
     }
+    
+    
 
 }
