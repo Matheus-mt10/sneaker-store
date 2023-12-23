@@ -1,0 +1,28 @@
+.heroContainer {
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+}
+.heroContainer .heroTextBox {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.heroContainer .heroTextBox .heroTitle {
+  font-size: 42px;
+  margin: 10px 0px 10px 0px;
+}
+.heroContainer .heroTextBox .heroText {
+  font-size: 14px;
+  margin: 10px 0px 10px 0px;
+}
+.heroContainer .heroTextBox .heroImg {
+  margin: 10px 0px 10px 0px;
+}
+
+DefaultButton {
+  margin-top: 100px;
+}

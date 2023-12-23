@@ -1,0 +1,64 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+header .navigationItens {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 8px;
+}
+header .navigationItens .brandBox .logoHeader {
+  width: 39px;
+  margin: 0px 0px 0px 8px;
+}
+header .navigationItens .navBoxIcon {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  margin: 5px;
+}
+header .navigationItens .navBoxIcon .navIcons {
+  width: 22px;
+}
+header .searchBar {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 364px;
+  height: 40px;
+  padding: 5px 0px 5px 0px;
+  border-radius: 80px;
+  background-color: #f3f3f3;
+  margin: 10px 0px 0px 0px;
+}
+header .searchBar .lupa {
+  width: 16px;
+  height: 16px;
+  margin: 0px 10px 0px 5px;
+}
+header .searchBar .inputSearchHome {
+  width: 300px;
+  height: 26px;
+  border: none;
+  background-color: #f3f3f3;
+}
+header .searchBar .inputSearchHome:focus {
+  outline: none;
+}
+header .searchBar .inputSearchHome::-moz-placeholder {
+  padding: 0px 0px 0px 10px;
+  color: #737373;
+}
+header .searchBar .inputSearchHome::placeholder {
+  padding: 0px 0px 0px 10px;
+  color: #737373;
+}/*# sourceMappingURL=Header.module.css.map */

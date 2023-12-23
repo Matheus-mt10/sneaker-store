@@ -1,0 +1,34 @@
+.collectionCard {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6d6d6;
+  padding: 5px;
+  width: 180px;
+}
+.collectionCard .imgSneaker {
+  width: 166px;
+  border-radius: 5px;
+}
+.collectionCard .cardContent {
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 6px;
+}
+.collectionCard .cardContent .sneakerTitle {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #737373;
+  text-align: left;
+  margin: 0px 0px 2px 0px;
+}
+.collectionCard .cardContent .sneakerStyle {
+  font-size: 16px;
+  color: #979797;
+}
+.collectionCard .cardContent .sneakerPrice {
+  margin: 8px 0px 0px 0px;
+  font-size: 16px;
+  color: #737373;
+}/*# sourceMappingURL=CardCollection.module.css.map */

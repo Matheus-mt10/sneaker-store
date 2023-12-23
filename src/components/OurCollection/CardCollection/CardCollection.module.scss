@@ -1,0 +1,41 @@
+@import '../../colors/color.module.scss';
+
+.collectionCard{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 180px;
+
+    .imgSneaker{
+        width: 166px;
+        border-radius:5px;
+    }
+
+    .cardContent{
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 6px;
+
+        .sneakerTitle{
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            text-align: left;  
+            margin: 0px 0px 2px 0px;
+        }
+        .sneakerStyle{
+            font-size: 16px;
+            color: $gray-text-ligth;
+        }
+
+        .sneakerPrice{
+            margin: 8px 0px 0px 0px;
+            font-size: 16px;
+            color: $gray-text;
+        }
+
+    }
+}
+
+
