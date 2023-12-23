@@ -80,16 +80,16 @@ header{
 
         padding: 10px 0px;
 
-        .searchBar{
+            .searchBar{
+                width: 400px;
 
-                width: 434px;
                 .inputSearchHome{
-                    width: 380px;
+                    width: 340px;
                 }
+                
             }
 
            .navigationItens{
-
                 padding: 8px 15px;
 
                 .navBoxIcon{
@@ -99,16 +99,13 @@ header{
                 }
             
                 .brandBox{
+
                     .logoHeader{
                         width: 54px;
                     }
                 }
             
-            
-            }
-        
-
-        
+                }
 
     }
     

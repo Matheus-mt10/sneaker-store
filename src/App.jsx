@@ -7,9 +7,10 @@ import OurCollection from './components/OurCollection/OurCollection';
 import Newsletter from './components/Newsletter/Newsletter';
 import Footer from './components/Footer/Footer';
 
+
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <Header></Header>
       <Hero></Hero>
       <Oferted></Oferted>

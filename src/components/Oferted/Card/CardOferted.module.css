@@ -25,4 +25,23 @@
 }
 .cardOferted .cardContent .cardText {
   font-size: 10px;
+}
+
+@media screen and (min-width: 391px) and (max-width: 475px) {
+  .cardOferted {
+    gap: 15px;
+  }
+  .cardOferted .imgBackground {
+    width: 60px;
+    height: 60px;
+  }
+  .cardOferted .imgBackground .imgCard {
+    width: 40px;
+  }
+  .cardOferted .cardContent .cardTitle {
+    font-size: 16px;
+  }
+  .cardOferted .cardContent .cardText {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=CardOferted.module.css.map */

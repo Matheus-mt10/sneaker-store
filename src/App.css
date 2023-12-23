@@ -6,4 +6,10 @@
 
 img {
   width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }/*# sourceMappingURL=app.css.map */

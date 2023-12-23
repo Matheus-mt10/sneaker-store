@@ -22,6 +22,7 @@
         flex-flow: column;
         align-items: start;
         justify-content: center;
+
         .cardTitle{
             font-size: 14px;
         }
@@ -31,4 +32,35 @@
         }
 
     }
+}
+
+@media screen and (min-width: 391px) and (max-width:475px){
+
+   .cardOferted{
+        gap: 15px;
+
+        .imgBackground{
+            width: 60px;
+            height: 60px;
+
+            .imgCard{
+                width: 40px;
+            }
+        }
+
+
+        .cardContent{
+           .cardTitle{
+                font-size: 16px;
+           } 
+
+           .cardText{
+            font-size: 12px;
+           }
+        }
+
+        
+   }
+
+
 }

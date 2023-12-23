@@ -70,10 +70,10 @@ header .searchBar .inputSearchHome::placeholder {
     padding: 10px 0px;
   }
   header .searchBar {
-    width: 434px;
+    width: 400px;
   }
   header .searchBar .inputSearchHome {
-    width: 380px;
+    width: 340px;
   }
   header .navigationItens {
     padding: 8px 15px;
